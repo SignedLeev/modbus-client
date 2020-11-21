@@ -1,0 +1,22 @@
+{
+  "name": "modbus-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "jsmodbus": "^4.0.4",
+    "modbus-stream": "^0.44.0",
+    "modbus-tcp": "^0.4.13",
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {
+    "cron": "^1.8.2"
+  }
+}
